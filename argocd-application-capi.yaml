@@ -11,7 +11,7 @@ spec:
   source:
     helm:
       valueFiles:
-      - values-v1.19.1.yaml  
+      - values-demo.yaml  
     path: .
     repoURL: https://github.com/kgamanji/cluster-api-helm-chart.git 
     targetRevision: HEAD
